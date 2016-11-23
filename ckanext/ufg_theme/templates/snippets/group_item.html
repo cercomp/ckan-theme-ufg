@@ -1,0 +1,18 @@
+{% block group_item %}
+    {% block group_item_header %}
+      {% set truncate=truncate or 0 %}
+      {% set truncate_title = truncate_title or 0 %}
+      {% set title = group.title or group.name %}
+      {% block group_item_header_image %}
+        <a href="{{ h.url_for(controller='group', action='read', id=group.name) }}">
+          <img src="{{ group.image_display_url or h.url_for_static('/base/images/placeholder-group.png') }}" alt="{{ group.name }}" />
+          <span>{{ group.title or group.name }}</span>
+        </a>
+      {% endblock %}
+    {% endblock %}
+    {% block group_item_content %}
+      {% set list_class = "unstyled dataset-list" %}
+      {% set item_class = "dataset-item module-content" %}
+      {% snippet 'snippets/package_list.html', packages=group.packages, list_class=list_class, item_class=item_class, truncate=120 %}
+    {% endblock %}
+{% endblock %}

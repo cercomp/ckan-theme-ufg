@@ -1,0 +1,59 @@
+<footer class="site-footer">
+  <div class="container">
+    {% block footer_content %}
+    <div class="row">
+      <div class="span8">
+        {% block footer_nav %}
+          <p>
+            Universidade Federal de Goiás - UFG
+          </p>
+          <p>
+            Avenida Esperança s/n, Campus Samambaia - Prédio da Reitoria.
+          </p>
+          <p>
+            CEP 74690-900 - Goiânia/GO - Brasil.
+          </p>
+          <p>
+            Contato: +55 62 3521 1000
+          </p>
+        {% endblock %}
+      </div>
+      <div class="span4 footer-institution">
+        <ul>
+          <li>
+            <a href="http://cercomp.ufg.br/" target="_blank">
+              <img src="/base/images/cercomp.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ufg.br/" target="_blank">
+              <img src="/base/images/ufg.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <hr>
+      <div class="span8 footer-links">
+        {% block footer_links_ckan %}
+          {% set api_url = 'http://docs.ckan.org/en/{0}/api/'.format(g.ckan_doc_version) %}
+          <a href="http://www.opendefinition.org/okd/" target="_blank"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}"></a>
+        {% endblock %}
+      </div>
+      <div class="span4 attribution">
+        {% block footer_attribution %}
+          <p>{% trans %}<a class="hide-text ckan-footer-logo" target="_blank" href="http://ckan.org">CKAN</a>{% endtrans %}</p>
+        {% endblock %}
+      </div>
+    </div>
+    {% endblock %}
+  </div>
+
+  {% block footer_debug %}
+    {% if g.debug %}
+      {% include 'snippets/debug.html' %}
+    {% endif %}
+  {% endblock %}
+</footer>
