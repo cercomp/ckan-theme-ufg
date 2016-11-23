@@ -48,7 +48,7 @@ body {
 }
 
 .hero {
-  background: #ebeff2;
+  background: #039BE5;
   /*background-image: url("/base/images/intro.svg"), linear-gradient(45deg, #308CE8, #308CE8 50%, #308CE8 95%);
   background-attachment: fixed;*/
 }
@@ -80,13 +80,13 @@ body {
 
 .homepage .module-search .module-content {
   padding: 35px;
-  background: rgba(255,255,255,.8);
-  color: #77777D;
+  background: #039be5;
+  color: #FFF;
 }
 
 .homepage .module-search .tags {
-  background: rgba(255,255,255,.8);
-  color: #77777D;
+  background: #039BE5;
+  color: #FFF;
   border-top: 1px solid #D8E1EA;
 }
 
@@ -104,9 +104,10 @@ body {
 
 .content-groups ul li a {
   display: block;
-  color: #7D7D87;
+  color: #000;
   text-decoration: none;
   padding: 20px;
+  font-weight: 600;
 }
 
 .content-groups ul li a img {
@@ -129,7 +130,7 @@ body {
 
 .label-content {
   text-transform: uppercase;
-  color: #7D7D87;
+  color: #000;
 }
 
 .page-heading {
@@ -239,7 +240,7 @@ h3 {
 
 .homepage .module-search .tags h3 {
   line-height: 24px;
-  color: #717A89;
+  color: #FFF;
   text-transform: none;
   letter-spacing: 1px;
 }
@@ -285,6 +286,11 @@ ul, ol {
 
 .context-info .nums dl dd {
   color: #039BE5;
+}
+
+.hero .box {
+  border: 0;
+  box-shadow: none;
 }
 
 @media (max-width: 767px) {

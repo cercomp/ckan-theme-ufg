@@ -10,9 +10,4 @@
         </a>
       {% endblock %}
     {% endblock %}
-    {% block group_item_content %}
-      {% set list_class = "unstyled dataset-list" %}
-      {% set item_class = "dataset-item module-content" %}
-      {% snippet 'snippets/package_list.html', packages=group.packages, list_class=list_class, item_class=item_class, truncate=120 %}
-    {% endblock %}
 {% endblock %}
