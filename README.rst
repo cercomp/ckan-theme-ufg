@@ -8,26 +8,6 @@
 .. image:: https://coveralls.io/repos/RicardoBorgesGO/ckanext-ufg_theme/badge.svg
   :target: https://coveralls.io/r/RicardoBorgesGO/ckanext-ufg_theme
 
-.. image:: https://pypip.in/download/ckanext-ufg_theme/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-ufg_theme/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-ufg_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-ufg_theme/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-ufg_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-ufg_theme/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-ufg_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-ufg_theme/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-ufg_theme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-ufg_theme/
-    :alt: License
-
 =============
 ckanext-ufg_theme
 =============
