@@ -8,6 +8,16 @@ body {
   font-family: roboto, 'Open Sans', sans-serif;
 }
 
+a.tag:hover {
+ background-color: #455a64;
+ border: 1px solid #455a64;
+ box-shadow: inset 0 1px 0 #455a64;
+}
+
+.js .image-upload #field-image-upload {
+  opacity: 1;
+}
+
 .page-header {
   background-color: #cdcdcd;
 }
@@ -19,7 +29,7 @@ body {
 }
 
 .account-masthead {
-  background: #455a64;
+  background: #37424B;
 }
 
 .account-masthead .account ul li {
