@@ -36,13 +36,13 @@
 
     <div class="row">
       <hr>
-      <div class="span8 footer-links">
+      <div class="span10 footer-links">
         {% block footer_links_ckan %}
           {% set api_url = 'http://docs.ckan.org/en/{0}/api/'.format(g.ckan_doc_version) %}
           <a href="http://www.opendefinition.org/okd/" target="_blank"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}"></a>
         {% endblock %}
       </div>
-      <div class="span4 attribution">
+      <div class="span2 attribution">
         {% block footer_attribution %}
           <p>{% trans %}<a class="hide-text ckan-footer-logo" target="_blank" href="http://ckan.org">CKAN</a>{% endtrans %}</p>
         {% endblock %}
