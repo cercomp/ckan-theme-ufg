@@ -290,9 +290,9 @@ ul, ol {
   color: #7d7d87;
 }
 
-.context-info h1.heading {
+/*.context-info h1.heading {
   word-break: normal;
-}
+}*/
 
 .context-info .nums dl dd {
   color: #039BE5;
