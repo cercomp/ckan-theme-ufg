@@ -2,7 +2,7 @@
   <div class="container">
     {% block footer_content %}
     <div class="row">
-      <div class="span8">
+      <div class="col-sm-8 col-xs-12">
         {% block footer_nav %}
           <p>
             Universidade Federal de Goiás - UFG
@@ -18,7 +18,7 @@
           </p>
         {% endblock %}
       </div>
-      <div class="span4 footer-institution">
+      <div class="span4 footer-institution col-sm-4 col-xs-12">
         <ul>
           <li>
             <a href="http://cercomp.ufg.br/" target="_blank">
@@ -36,13 +36,13 @@
 
     <div class="row">
       <hr>
-      <div class="span10 footer-links">
+      <div class="col-sm-10 col-xs-12 footer-links">
         {% block footer_links_ckan %}
           {% set api_url = 'http://docs.ckan.org/en/{0}/api/'.format(g.ckan_doc_version) %}
           <a href="http://www.opendefinition.org/okd/" target="_blank"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}"></a>
         {% endblock %}
       </div>
-      <div class="span2 attribution">
+      <div class="col-sm-2 col-xs-12 attribution">
         {% block footer_attribution %}
           <p>{% trans %}<a class="hide-text ckan-footer-logo" target="_blank" href="http://ckan.org">CKAN</a>{% endtrans %}</p>
         {% endblock %}
