@@ -52,7 +52,6 @@
     such as rss feeds and favicons in the same way as the meta block.
     #}
     {% block links -%}
-      <!--<link rel="shortcut icon" href="{{ g.favicon }}" />-->
       <link rel="shortcut icon" href="/base/images/ckan-logo11.png" />
     {% endblock -%}
 
@@ -77,6 +76,12 @@
 
       <link rel="stylesheet" href="/base/css/custom.css" />
       <link rel="stylesheet" href="/base/css/animate.css" />
+    {% endblock %}
+
+    {% block styles %}
+        {{ super() }}
+        <link rel="stylesheet" href="/base/css/custom.css" />
+        <link rel="stylesheet" href="/base/css/animate.css" />
     {% endblock %}
 
     {% block head_extras %}
