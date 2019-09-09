@@ -121,7 +121,7 @@ a.tag:hover {
 }
 
 .content-groups ul li a img {
-  margin-bottom: 30px;
+  max-width: 100%;
 }
 
 .border-groups {
@@ -273,7 +273,7 @@ h3 {
 }
 
 .content-groups ul li {
-  width: 15%;
+  width: 17%;
 }
 
 ul, ol {
