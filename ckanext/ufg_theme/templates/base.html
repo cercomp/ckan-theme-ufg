@@ -75,12 +75,6 @@
       {% asset main_css[6:-4] %}
     {% endblock %}
 
-    {% block styles %}
-        {{ super() }}
-        <link rel="stylesheet" href="/base/css/custom.css" />
-        <link rel="stylesheet" href="/base/css/animate.css" />
-    {% endblock %}
-
     {% block head_extras %}
       {# defined in the config.ini under "ckan.template_head_end" #}
       {{ g.template_head_end | safe }}
@@ -93,6 +87,8 @@
       <style>
         {{ g.site_custom_css | safe }}
       </style>
+      <link rel="stylesheet" href="/base/css/custom.css" />
+      <link rel="stylesheet" href="/base/css/animate.css" />
       {%- endif %}
     {% endblock %}
   </head>
