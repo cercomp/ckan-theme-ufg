@@ -58,7 +58,7 @@ a.tag:hover {
 }
 
 .hero {
-  background: #039BE5;
+  background: #0072B9;
   /*background-image: url("/base/images/intro.svg"), linear-gradient(45deg, #308CE8, #308CE8 50%, #308CE8 95%);
   background-attachment: fixed;*/
 }
@@ -81,7 +81,7 @@ a.tag:hover {
 }
 
 .sobre {
-  background: #039BE5;
+  background: #0063a0;
 }
 
 .content-statistics {
@@ -90,12 +90,12 @@ a.tag:hover {
 
 .homepage .module-search .module-content {
   padding: 35px;
-  background: #039be5;
+  background: #0072B9;
   color: #FFF;
 }
 
 .homepage .module-search .tags {
-  background: #039BE5;
+  background: #0072B9;
   color: #FFF;
   border-top: 1px solid #D8E1EA;
 }
@@ -185,7 +185,7 @@ a.tag:hover {
 }
 
 .btn-default:hover {
-  color: #039BE5;
+  color: #0072B9;
   background: #FFF;
   border-color: #EEE;
 }
@@ -295,7 +295,7 @@ ul, ol {
 }*/
 
 .context-info .nums dl dd {
-  color: #039BE5;
+  color: #0072B9;
 }
 
 .hero .box {
